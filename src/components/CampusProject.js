@@ -21,11 +21,24 @@ export default function CampusProject (){
             <i onClick={previous} class="fa-solid fa-chevron-left"></i>
         </div>
         <div className='campus-center-item'>
-            {navCampus === 1 ? <letter/> : null}
+            {navCampus === 1 ? <Kenta/> : null}
             {navCampus === 2 ? <speexx/> : null}
         </div>
         <div className='campus-right-item'>
             <i onClick={next} class="fa-solid fa-chevron-right"></i>
+        </div>
+    </div>
+}
+
+function Kenta(){
+    return <div className='kenta-wrap-all'>
+        <h1>Kenta Smart Sleeping Pad</h1>
+        <div className='kenta-content-box'>
+            <div className='kenta-img-box-login'>
+            </div>
+            <div className='kenta-text-box'>
+                text-box
+            </div>
         </div>
     </div>
 }
