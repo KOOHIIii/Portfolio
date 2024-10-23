@@ -43,6 +43,9 @@
     border: 2px solid #000;
     border-radius: 50%;
 }
+.cer-wrap-all .cer-top-item .bullet.active{
+    background-color: #000;
+}
 .cer-wrap-all .cer-left-item i{
     font-size: 2rem;
     cursor: pointer;
