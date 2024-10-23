@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Certificate.css'
 
 export default function Certificate(){
-    var [navCer , setNavcer] = useState(1)
+    let [navCer , setNavcer] = useState(1)
     function previous(){
         if (navCer > 1){
             setNavcer(navCer = navCer-1)
