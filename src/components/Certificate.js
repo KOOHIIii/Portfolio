@@ -17,7 +17,6 @@ export default function Certificate(){
         <div className='cer-top-item'>
             <div className={`bullet ${navCer === 1 && "active"}`}></div>
             <div className={`bullet ${navCer === 2 && "active"}`}></div>
-            <div className={`bullet ${navCer === 3 && "active"}`}></div>
         </div>
         <div className='cer-left-item'>
             <i onClick={previous} class="fa-solid fa-chevron-left"></i>
