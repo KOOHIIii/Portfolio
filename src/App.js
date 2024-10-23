@@ -5,21 +5,16 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello react
-          <Home/>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <ul>
+          <li>Campus Project</li>
+          <li>Self Project</li>
+          <li>Nutthakun.W</li>
+          <li>Certificate</li>
+          <li>Skills & Tools</li>
+        </ul>
+      </nav>
+      <Home/>
     </div>
   );
 }
