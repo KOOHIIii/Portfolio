@@ -60,3 +60,67 @@
 .self-wrap-all .self-right-item i:hover{
     color: limegreen;
 }
+.ninja-wrap-all .ninja-img-box{
+    display: flex;
+    justify-content: center;
+}
+.ninja-wrap-all .ninja-img-box img{
+    width: 80%;
+    height: auto;
+}
+.ninja-wrap-all .ninja-wrap-link{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.ninja-wrap-all .ninja-wrap-link a{
+    text-decoration: none;
+    color: #fff;
+}
+.ninja-wrap-all .ninja-wrap-link a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.todo-wrap-all .todo-img-box{
+    display: flex;
+    justify-content: center;
+}
+.todo-wrap-all .todo-img-box img{
+    width: 80%;
+    height: auto;
+}
+.todo-wrap-all .todo-wrap-link{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.todo-wrap-all .todo-wrap-link a{
+    text-decoration: none;
+    color: #fff;
+}
+.todo-wrap-all .todo-wrap-link a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.color-wrap-all .color-img-box{
+    display: flex;
+    justify-content: center;
+}
+.color-wrap-all .color-img-box img{
+    width: 80%;
+    height: auto;
+}
+.color-wrap-all .color-wrap-link{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.color-wrap-all .color-wrap-link a{
+    text-decoration: none;
+    color: #fff;
+}
+.color-wrap-all .color-wrap-link a:hover{
+    text-decoration: none;
+    color: #000;
+}
