@@ -2,7 +2,17 @@ import { useState } from 'react'
 import './Certificate.css'
 
 export default function Certificate(){
-    const [navCer , setNavcer] = useState(1)
+    var [navCer , setNavcer] = useState(1)
+    function previous(){
+        if (navCer > 1){
+            setNavcer(navCer = navCer-1)
+        }
+    }
+    function next(){
+        if (navCer < 2){
+            setNavcer(navCer = navCer+1)
+        }
+    }
     return <div className='cer-wrap-all'>
         <div className='cer-top-item'>
             <div className='bullet'></div>
@@ -10,14 +20,14 @@ export default function Certificate(){
             <div className='bullet'></div>
         </div>
         <div className='cer-left-item'>
-            <i class="fa-solid fa-chevron-left"></i>
+            <i onClick={previous} class="fa-solid fa-chevron-left"></i>
         </div>
         <div className='cer-center-item'>
             {navCer === 1 ? <Letter/> : null}
             {navCer === 2 ? <Speexx/> : null}
         </div>
         <div className='cer-right-item'>
-            <i class="fa-solid fa-chevron-right"></i>
+            <i onClick={next} class="fa-solid fa-chevron-right"></i>
         </div>
     </div>
 }
