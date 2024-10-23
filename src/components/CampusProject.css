@@ -216,7 +216,6 @@
     justify-content: center;
     border-top: 2px solid black;
     border-left: 2px solid black;
-    border-top-left-radius: 5px;
 }
 .robot-wrap-all .robot-img-box {
     display: flex;
