@@ -21,6 +21,15 @@
 
 .App nav ul li{
   list-style: none;
+  cursor: pointer;
+}
+
+.App nav ul li:hover{
+  color: lime;
+}
+
+.App nav .nav-home{
+  font-size: large;
 }
 
 /* @keyframes App-logo-spin {
