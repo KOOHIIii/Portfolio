@@ -1,3 +1,62 @@
-h1.self-h1 {
-    color: black;
+.self-wrap-all{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    background-image: url(../../public/img/home-bg-img);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+    grid-template-rows: 2rem 1fr;
+}
+.self-wrap-all h1{
+    margin: 0px 0px 10px 0px;
+    font-weight: 400;
+}
+.self-wrap-all .self-top-item{
+    grid-area: 1/1/2/5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.self-wrap-all .self-left-item{
+    grid-area: 2/1/3/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.self-wrap-all .self-center-item{
+    grid-area: 2/2/3/4;
+}
+.self-wrap-all .self-right-item{
+    grid-area: 2/4/3/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.self-wrap-all .self-top-item .bullet{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+.self-wrap-all .self-top-item .bullet.active{
+    background-color: #000;
+}
+.self-wrap-all .self-left-item i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.self-wrap-all .self-left-item i:hover{
+    color: limegreen;
+}
+.self-wrap-all .self-right-item i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.self-wrap-all .self-right-item i:hover{
+    color: limegreen;
 }
