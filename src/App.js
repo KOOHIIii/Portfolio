@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import CampusProject  from './components/CampusProject';
@@ -8,8 +7,7 @@ import Skills from './components/Skills';
 import { useState } from 'react';
 
 function App() {
-  var indexNav = 0;
-  var [nav , setnav] = useState(1)
+  var [nav , setnav] = useState(3)
   return (
     <div className="App">
       <nav>

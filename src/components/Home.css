@@ -1,6 +1,47 @@
-div{
-    height: 2000px;
+.home-wrap-all{
+    background-color: black;
+    background-image: url(../../public/img/home-bg-img);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-h1.home-h1 {
-    color: red;
+
+.home-wrap-all h1{
+    margin: 0;
 }
+
+.home-wrap-all .home-main-content{
+    background-color: white;
+    width: 800px;
+    height:400px;
+    opacity: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-wrap-all .home-main-content .img-box img{
+    width: 200px;
+    height: auto;
+    color: black;
+    pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .home-wrap-all .home-main-content .img-box img {
+      animation: React-icon-spin infinite 20s linear;
+    }
+  }
+
+@keyframes React-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
