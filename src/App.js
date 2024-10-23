@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
+import CampusProject  from './components/CampusProject';
+import SelfProject  from './components/SelfProject';
+import Certificate  from './components/Certificate';
+import Skills from './components/Skills';
 import { useState } from 'react';
 
 function App() {
@@ -17,7 +21,11 @@ function App() {
           <li onClick={()=> setnav(nav=5)}>Skills & Tools</li>
         </ul>
       </nav>
+      {nav === 1 ? <CampusProject/> : null}
+      {nav === 2 ? <SelfProject/> : null}
       {nav === 3 ? <Home/> : null}
+      {nav === 4 ? <Certificate/> : null}
+      {nav === 5 ? <Skills/> : null}
     </div>
   );
 }
