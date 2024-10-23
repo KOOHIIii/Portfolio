@@ -36,8 +36,8 @@ export default function SelfProject(){
 function NinjaMail(){
     return <div className='ninja-wrap-all'>
         <div className='ninja-wrap-link'>
-            <h2>Ninja Mail - Layout and Responsive Design Practice -</h2>
-            <a href='https://koohiiii.github.io/Ninja-Mail/'><h2>Visit Site</h2></a>
+            <h1>Ninja Mail - Layout and Responsive Design Practice -</h1>
+            <a href='https://koohiiii.github.io/Ninja-Mail/'><h1>Visit Site</h1></a>
         </div>
         <div className='ninja-img-box'>
             <img src='/img/ninjamail.png' alt='ninja mail' />
@@ -48,8 +48,8 @@ function NinjaMail(){
 function Todolist(){
     return <div className='todo-wrap-all'>
         <div className='todo-wrap-link'>
-            <h2>ToDoList - Javascript and DOM Practice -</h2>
-            <a href='https://koohiiii.github.io/Project-To-Do-List/'><h2>Visit Site</h2></a>
+            <h1>ToDoList - Javascript and DOM Practice -</h1>
+            <a href='https://koohiiii.github.io/Project-To-Do-List/'><h1>Visit Site</h1></a>
         </div>
         <div className='todo-img-box'>
             <img src='/img/todolist.png' alt='todolist' />
@@ -60,8 +60,8 @@ function Todolist(){
 function Colorpick(){
     return <div className='color-wrap-all'>
         <div className='color-wrap-link'>
-            <h2>Color Picker - Javascript and DOM Practice -</h2>
-            <a href='https://koohiiii.github.io/Project-Color-Picker/'><h2>Visit Site</h2></a>
+            <h1>Color Picker - Javascript and DOM Practice -</h1>
+            <a href='https://koohiiii.github.io/Project-Color-Picker/'><h1>Visit Site</h1></a>
         </div>
         <div className='color-img-box'>
             <img src='/img/colorpick.png' alt='colorpicker' />
