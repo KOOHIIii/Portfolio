@@ -22,7 +22,7 @@ export default function CampusProject (){
         </div>
         <div className='campus-center-item'>
             {navCampus === 1 ? <Kenta/> : null}
-            {navCampus === 2 ? <speexx/> : null}
+            {navCampus === 2 ? <Robot/> : null}
         </div>
         <div className='campus-right-item'>
             <i onClick={next} class="fa-solid fa-chevron-right"></i>
@@ -86,4 +86,18 @@ function Kenta(){
             <h1>Data</h1>
         </div>
     }
+}
+
+function Robot(){
+    return <div className='robot-wrap-all'>
+        <div className='robot-wrap-link'>
+            <h1>Robot Studio Web Site With WordPress - </h1>
+            <a href='https://robotstudio.bu.ac.th/'>
+                <h2>Visit Site</h2>
+            </a>
+        </div>
+        <div className='robot-img-box'>
+            <img src='/img/robotstudio.png' alt='Robot Studio Website' />
+        </div>
+    </div>
 }
