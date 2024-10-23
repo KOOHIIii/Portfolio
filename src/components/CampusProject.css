@@ -98,3 +98,79 @@
     border-radius: 10px;
     color: #000;
 }
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid{
+    margin: 10px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item1{
+    grid-area: 1/1/2/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item1:hover{
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item2{
+    grid-area: 1/2/2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item2:hover{
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item3{
+    grid-area: 1/3/2/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item3:hover{
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item4{
+    grid-area: 1/4/2/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item4:hover{
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+}
+.kenta-wrap-all .kenta-content-box .kenta-text-box .text-box-grid .text-box-item5{
+    grid-area: 2/1/3/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 5px;
+}

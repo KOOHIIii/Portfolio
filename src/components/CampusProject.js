@@ -37,7 +37,13 @@ function Kenta(){
             <div className='kenta-img-box-login'>
             </div>
             <div className='kenta-text-box'>
-                text-box
+                <div className='text-box-grid'>
+                    <div className='text-box-item1'>Info</div>
+                    <div className='text-box-item2'>Login</div>
+                    <div className='text-box-item3'>Register</div>
+                    <div className='text-box-item4'>Database</div>
+                    <div className='text-box-item5'>item5</div>
+                </div>
             </div>
         </div>
     </div>
