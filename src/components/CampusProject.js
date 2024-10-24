@@ -101,7 +101,7 @@ function Robot(){
             </a>
         </div>
         <div className='robot-img-box'>
-            <img src='/img/robotstudio.png' alt='Robot Studio Website' />
+            <img src={require('../img/robotstudio.png')} alt='Robot Studio Website'/>
         </div>
     </div>
 }

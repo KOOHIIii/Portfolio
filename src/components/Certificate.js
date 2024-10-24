@@ -41,7 +41,7 @@ function Letter(){
     return <div className='letter-wrap-all'>
         <h1>Recommendation letter</h1>
         <div className='letter-img-box'>
-            <img src='/img/Letter.jpg' alt='Recommendation letter' />
+            <img src={require('../img/Letter.jpg')} alt='Recomendateion letter'/>
         </div>
     </div>
 }
@@ -50,8 +50,8 @@ function Speexx(){
     return <div className='speexx-wrap-all'>
         <h1>Speexx certificate</h1>
         <div className='speexx-img-box'>
-            <img src='/img/speexx1.jpg' alt='speexx1 certificate' />
-            <img src='/img/speexx2.jpg' alt='speexx1 certificate' />
+            <img src={require('../img/speexx1.jpg')} alt='speexx1 certificate'/>
+            <img src={require('../img/speexx2.jpg')} alt='speexx2 certificate'/>
         </div>
     </div>
 }
@@ -60,7 +60,7 @@ function Ros2(){
     return <div className='ros-wrap-all'>
         <h1>WRG Certificate</h1>
         <div className='ros-img-box'>
-            <img src='/img/ros2cer.jpg' alt='ros2 certificate' />
+            <img src={require('../img/ros2cer.jpg')} alt='ros2 certificate'/>
         </div>
     </div>
 }
@@ -69,7 +69,7 @@ function SCG(){
     return <div className='scg-wrap-all'>
         <h1>SCG Certificate</h1>
         <div className='scg-img-box'>
-            <img src='/img/SCGcer.jpg' alt='SCG certificate' />
+            <img src={require('../img/SCGcer.jpg')} alt='SCG certificate'/>
         </div>
     </div>
 }
@@ -78,7 +78,7 @@ function AI(){
     return <div className='ai-wrap-all'>
         <h1>Teacher Assistant Certificate</h1>
         <div className='ai-img-box'>
-            <img src='/img/AIcer.jpg' alt='Teacher Assistant certificate' />
+            <img src={require('../img/AIcer.jpg')} alt='Teacher Assistant certificate'/>
         </div>
     </div>
 }

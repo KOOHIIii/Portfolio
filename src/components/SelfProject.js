@@ -42,7 +42,7 @@ function NinjaMail(){
             <a href='https://koohiiii.github.io/Ninja-Mail/'><h1>Visit Site</h1></a>
         </div>
         <div className='ninja-img-box'>
-            <img src='/img/ninjamail.png' alt='ninja mail' />
+            <img src={require('../img/ninjamail.png')} alt='Ninja Mail'/>
         </div>
     </div>
 }
@@ -54,7 +54,7 @@ function Todolist(){
             <a href='https://koohiiii.github.io/Project-To-Do-List/'><h1>Visit Site</h1></a>
         </div>
         <div className='todo-img-box'>
-            <img src='/img/todolist.png' alt='todolist' />
+            <img src={require('../img/todolist.png')} alt='todolist'/>
         </div>
     </div>
 }
@@ -66,7 +66,7 @@ function Colorpick(){
             <a href='https://koohiiii.github.io/Project-Color-Picker/'><h1>Visit Site</h1></a>
         </div>
         <div className='color-img-box'>
-            <img src='/img/colorpick.png' alt='colorpicker' />
+            <img src={require('../img/colorpick.png')} alt='Colorpicker'/>
         </div>
     </div>
 }
@@ -78,7 +78,7 @@ function Portfolio(){
             <a href='https://github.com/KOOHIIii/Portfolio'><h1>Visit Github</h1></a>
         </div>
         <div className='port-img-box'>
-            <img src='/img/portfolioWeb.png' alt='portfolio' />
+            <img src={require('../img/portfolioWeb.png')} alt='Portfolio'/>
         </div>
     </div>
 }
