@@ -124,3 +124,25 @@
     text-decoration: none;
     color: #000;
 }
+
+.port-wrap-all .port-img-box{
+    display: flex;
+    justify-content: center;
+}
+.port-wrap-all .port-img-box img{
+    width: 80%;
+    height: auto;
+}
+.port-wrap-all .port-wrap-link{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.port-wrap-all .port-wrap-link a{
+    text-decoration: none;
+    color: #fff;
+}
+.port-wrap-all .port-wrap-link a:hover{
+    text-decoration: none;
+    color: #000;
+}

@@ -9,7 +9,7 @@ export default function SelfProject(){
         }
     }
     function next(){
-        if (navSelf < 3){
+        if (navSelf < 4){
             setNavself(navSelf = navSelf+1)
         }
     }
@@ -18,14 +18,16 @@ export default function SelfProject(){
             <div className={`bullet ${navSelf === 1 && "active"}`}></div>
             <div className={`bullet ${navSelf === 2 && "active"}`}></div>
             <div className={`bullet ${navSelf === 3 && "active"}`}></div>
+            <div className={`bullet ${navSelf === 4 && "active"}`}></div>
         </div>
         <div className='self-left-item'>
             <i onClick={previous} class="fa-solid fa-chevron-left"></i>
         </div>
         <div className='self-center-item'>
-            {navSelf === 1 ? <NinjaMail/> : null}
-            {navSelf === 2 ? <Todolist/> : null}
-            {navSelf === 3 ? <Colorpick/> : null}
+            {navSelf === 1 ? <Portfolio/> : null}
+            {navSelf === 2 ? <NinjaMail/> : null}
+            {navSelf === 3 ? <Todolist/> : null}
+            {navSelf === 4 ? <Colorpick/> : null}
         </div>
         <div className='self-right-item'>
             <i onClick={next} class="fa-solid fa-chevron-right"></i>
@@ -65,6 +67,18 @@ function Colorpick(){
         </div>
         <div className='color-img-box'>
             <img src='/img/colorpick.png' alt='colorpicker' />
+        </div>
+    </div>
+}
+
+function Portfolio(){
+    return <div className='port-wrap-all'>
+        <div className='port-wrap-link'>
+            <h1>Web Portfolio - React and Code In Git Practice -</h1>
+            <a href='https://github.com/KOOHIIii/Portfolio'><h1>Visit Github</h1></a>
+        </div>
+        <div className='port-img-box'>
+            <img src='/img/portfolioWeb.png' alt='portfolio' />
         </div>
     </div>
 }
