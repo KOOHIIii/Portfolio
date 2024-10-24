@@ -97,7 +97,7 @@ function Robot(){
         <div className='robot-wrap-link'>
             <h1>Robot Studio Web Site With WordPress - </h1>
             <a href='https://robotstudio.bu.ac.th/'>
-                <h2>Visit Site</h2>
+                <h1>Visit Site</h1>
             </a>
         </div>
         <div className='robot-img-box'>
