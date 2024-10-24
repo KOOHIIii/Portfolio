@@ -67,23 +67,27 @@ function Kenta(){
         </div>
     </div>
     function Info(){
-        return <div>
-            <h1>Info</h1>
+        return <div className='item5-content-box'>
+            <h1>Kenta Smart Sleeping Pad</h1>
+            <p>The project aims to assist in monitoring bedridden patients to determine how long they have been in the same position, addressing the issue of pressure sores. The project is divided into two parts: software and hardware. This presentation focuses on the software aspect, which is a web dashboard for monitoring the sleeping position of bedridden patients.</p>
         </div>
     }
     function Login(){
-        return <div>
-            <h1>Login</h1>
+        return <div className='item5-content-box'>
+            <h1>Login Page</h1>
+            <p>An example of an actual project is the login page designed and created using HTML, CSS, JS, and PHP to connect to a database for checking whether the username and password match.</p>
         </div>
     }
     function Regis(){
-        return <div>
-            <h1>Regis</h1>
+        return <div className='item5-content-box'>
+            <h1>Register Page</h1>
+            <p>An example of an actual project is the registration page designed and created using HTML, CSS, and PHP to create a form that submits data to the database.</p>
         </div>
     }
     function Data(){
-        return <div>
-            <h1>Data</h1>
+        return <div className='item5-content-box'>
+            <h1>Database Page</h1>
+            <p>An example of an actual project is the design of a database structure using MySQL and XAMPP as a local host. The following image illustrates the data table for the registration form.</p>
         </div>
     }
 }

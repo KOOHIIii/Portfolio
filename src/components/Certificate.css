@@ -7,7 +7,7 @@
     background-size: cover;
     display: grid;
     grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
-    grid-template-rows: 2rem 1fr;
+    grid-template-rows: 3rem 1fr;
 }
 .cer-wrap-all h1{
     margin: 0px 0px 10px 0px;
@@ -78,5 +78,32 @@
 }
 .letter-wrap-all .letter-img-box img{
     width: 400px;
+    height: auto;
+}
+.ros-wrap-all .ros-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ros-wrap-all .ros-img-box img{
+    width: 750px;
+    height: auto;
+}
+.scg-wrap-all .scg-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scg-wrap-all .scg-img-box img{
+    width: 750px;
+    height: auto;
+}
+.ai-wrap-all .ai-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ai-wrap-all .ai-img-box img{
+    width: 750px;
     height: auto;
 }
