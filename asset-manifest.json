@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.96f3d6d1.css",
-    "main.js": "/Portfolio/static/js/main.c8fe7de4.js",
+    "main.css": "/Portfolio/static/css/main.f7fca7e9.css",
+    "main.js": "/Portfolio/static/js/main.ed4f1a62.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/home-bg-img": "/Portfolio/static/media/home-bg-img.255401d2a2d321c5e5ef",
     "static/media/portfolioWeb.png": "/Portfolio/static/media/portfolioWeb.5ff7573db4b3d9df6b9f.png",
+    "static/media/PWM_project1.png": "/Portfolio/static/media/PWM_project1.98c7f06673363db00a9b.png",
     "static/media/robotstudio.png": "/Portfolio/static/media/robotstudio.6212392a9c85af31d48b.png",
     "static/media/speexx2.jpg": "/Portfolio/static/media/speexx2.2304e3f6d7366fac2d7e.jpg",
+    "static/media/PWM_project2.jpg": "/Portfolio/static/media/PWM_project2.f2a2f461699b1e32a793.jpg",
     "static/media/speexx1.jpg": "/Portfolio/static/media/speexx1.c8d048323af9986fd9a8.jpg",
     "static/media/kenta-regis.png": "/Portfolio/static/media/kenta-regis.4e68e1ea0354ac7363b8.png",
     "static/media/kenta-login.png": "/Portfolio/static/media/kenta-login.361649d9f65f23431e63.png",
@@ -21,12 +23,12 @@
     "static/media/colorpick.png": "/Portfolio/static/media/colorpick.91fc272f39327f4d3268.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.608fc0ad2aa2426089e07a01b24cb873.svg",
     "index.html": "/Portfolio/index.html",
-    "main.96f3d6d1.css.map": "/Portfolio/static/css/main.96f3d6d1.css.map",
-    "main.c8fe7de4.js.map": "/Portfolio/static/js/main.c8fe7de4.js.map",
+    "main.f7fca7e9.css.map": "/Portfolio/static/css/main.f7fca7e9.css.map",
+    "main.ed4f1a62.js.map": "/Portfolio/static/js/main.ed4f1a62.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96f3d6d1.css",
-    "static/js/main.c8fe7de4.js"
+    "static/css/main.f7fca7e9.css",
+    "static/js/main.ed4f1a62.js"
   ]
 }
