@@ -105,3 +105,18 @@ function Robot(){
         </div>
     </div>
 }
+
+function FPGA(){
+    return <div className='fpga-wrap-all'>
+        <div className='fpga-wrap-link'>
+            <h1>Indoor Positioning of Line-Following Vehicles Using
+                Visible Light Communications. - </h1>
+            <a href='https://robotstudio.bu.ac.th/'>
+                <h1>Example VDO</h1>
+            </a>
+        </div>
+        <div className='fpga-img-box'>
+            <img src={require('../img/PWM_project1.png')} alt='FPGA project 1'/>
+        </div>
+    </div>
+}
