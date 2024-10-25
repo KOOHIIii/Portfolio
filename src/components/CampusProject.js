@@ -8,7 +8,7 @@ export default function CampusProject (){
         }
     }
     function next(){
-        if (navCampus < 2){
+        if (navCampus < 3){
             setNavcampus(navCampus = navCampus+1)
         }
     }
@@ -16,13 +16,15 @@ export default function CampusProject (){
         <div className='campus-top-item'>
             <div className={`bullet ${navCampus === 1 && "active"}`}></div>
             <div className={`bullet ${navCampus === 2 && "active"}`}></div>
+            <div className={`bullet ${navCampus === 3 && "active"}`}></div>
         </div>
         <div className='campus-left-item'>
             <i onClick={previous} class="fa-solid fa-chevron-left"></i>
         </div>
         <div className='campus-center-item'>
-            {navCampus === 1 ? <Kenta/> : null}
-            {navCampus === 2 ? <Robot/> : null}
+            {navCampus === 1 ? <FPGA/> : null}
+            {navCampus === 2 ? <Kenta/> : null}
+            {navCampus === 3 ? <Robot/> : null}
         </div>
         <div className='campus-right-item'>
             <i onClick={next} class="fa-solid fa-chevron-right"></i>
@@ -108,15 +110,18 @@ function Robot(){
 
 function FPGA(){
     return <div className='fpga-wrap-all'>
-        <div className='fpga-wrap-link'>
+        <div >
             <h1>Indoor Positioning of Line-Following Vehicles Using
-                Visible Light Communications. - </h1>
-            <a href='https://robotstudio.bu.ac.th/'>
-                <h1>Example VDO</h1>
-            </a>
+                Visible Light Communications.</h1>
         </div>
         <div className='fpga-img-box'>
             <img src={require('../img/PWM_project1.png')} alt='FPGA project 1'/>
+            <img src={require('../img/PWM_project2.jpg')} alt='FPGA project 1'/>
+        </div>
+        <div className='fpga-wrap-link'>
+            <a href='https://youtu.be/ZDgskNkJgtM'>
+                <h1>Example VDO</h1>
+            </a>
         </div>
     </div>
 }

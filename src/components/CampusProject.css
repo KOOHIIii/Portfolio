@@ -249,16 +249,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 2rem;
 }
 .fpga-wrap-all .fpga-img-box img{
-    width: 80%;
+    width: 50%;
     height: auto;
 }
 .fpga-wrap-all .fpga-wrap-link{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    margin-top: 2rem;
 }
 .fpga-wrap-all .fpga-wrap-link a{
     text-decoration: none;
@@ -267,5 +270,5 @@
 }
 .fpga-wrap-all .fpga-wrap-link a:hover{
     text-decoration: none;
-    color: #000;
+    color: limegreen;
 }
