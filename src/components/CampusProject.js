@@ -121,7 +121,7 @@ function FPGA(){
         </div>
         <div className='fpga-wrap-link'>
             <a href='https://youtu.be/ZDgskNkJgtM'>
-                <h1>Example VDO</h1>
+                <h1>Project Info VDO</h1>
             </a>
         </div>
     </div>
