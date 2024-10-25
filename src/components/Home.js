@@ -5,7 +5,7 @@ export default function Home(){
         <div className='home-main-content'>
             <div>
                 <h1>Nutthakun | Web Portfolio</h1>
-                <p>FOR WEB CAREER AND DEV JURNEY create with React</p>
+                <p>FOR ENGINEERING CAREER  AND DEV JURNEY , create with React</p>
             </div>
             <div className='img-box'>
                 <img src={logo} alt='logo-react' />
