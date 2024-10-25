@@ -244,3 +244,28 @@
     text-decoration: none;
     color: #000;
 }
+
+.fpga-wrap-all .fpga-img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fpga-wrap-all .fpga-img-box img{
+    width: 80%;
+    height: auto;
+}
+.fpga-wrap-all .fpga-wrap-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.fpga-wrap-all .fpga-wrap-link a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fpga-wrap-all .fpga-wrap-link a:hover{
+    text-decoration: none;
+    color: #000;
+}
