@@ -111,6 +111,7 @@ function Robot(){
 function FPGA(){
     return <div className='fpga-wrap-all'>
         <div >
+            <h1>BU-CROCCS</h1>
             <h1>Indoor Positioning of Line-Following Vehicles Using
                 Visible Light Communications.</h1>
         </div>
